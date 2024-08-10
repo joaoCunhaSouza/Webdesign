@@ -1,10 +1,13 @@
 import './style.css';
+import images from "./img/img.jpg";
 
 export function App() {
   return (
     <>
 
-    <div className='img'></div>
+    <img className='img' src={images} alt="" />
+
+
 
       <h1>
         Transformando <span>espaço</span>, criando <span>história</span>
@@ -17,10 +20,10 @@ export function App() {
       <div className='icon'>
 
         <div className='icon-I'>
-          <h1>Instagram</h1>
+          <a href="#">Instagram</a>
         </div>
         <div>
-          <h1 className='icon-F'>Fale conosco</h1>
+        <a href="#">Fale conosco</a>
         </div>
       </div>
     </>

@@ -1,8 +1,6 @@
 body {
-
     margin: 2em auto;
     width: 593px;
-
 }
 
 h1{
@@ -15,29 +13,27 @@ h1{
 p{
     text-align: center;
 }
-.img {
 
+.img {
     width: 348px;
     height: 223px;
-    background-color: orange;
     margin: 20px auto;
+    display: block;
 }
 
 span{
-    color: #0075FF ;
+    color: #0075FF;
 }
 
 .icon{
     display: flex;
     gap: 20px;
     justify-content: center;
-
 }
 
-.icon h1{
+.icon a{
     font-size: 14px;
-    background-color: orange;
-    border-radius: 30px;
     padding: 10px;
+    color: #0075FF;
+    text-decoration: none; /* Remove o sublinhado do link */
 }
-
