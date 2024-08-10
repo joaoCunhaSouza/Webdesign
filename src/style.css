@@ -14,11 +14,16 @@ p{
     text-align: center;
 }
 
+.pp{
+    margin-bottom: 50px;
+}
+
 .img {
     width: 348px;
     height: 223px;
     margin: 20px auto;
     display: block;
+
 }
 
 span{
@@ -29,6 +34,10 @@ span{
     display: flex;
     gap: 20px;
     justify-content: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+
+
 }
 
 .icon a{

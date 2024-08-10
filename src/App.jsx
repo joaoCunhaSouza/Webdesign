@@ -14,7 +14,7 @@ export function App() {
       </h1>
 
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span>Nulla modi soluta consectetur</span> culpa dolepe illum ipsum ipsa molestias reprehenderit ad?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quaerat repellat, voluptatum orro <span>perspicilaboriosam veritatis fugit</span> doloribus dolore ab ipsam voluptas provident corporis?</p>
+      <p className='pp'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quaerat repellat, voluptatum orro <span>perspicilaboriosam veritatis fugit</span> doloribus dolore ab ipsam voluptas provident corporis?</p>
 
 
       <div className='icon'>
