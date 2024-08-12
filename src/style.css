@@ -11,7 +11,34 @@ body {
 .bold {
     font-weight: bold;
   }
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+li{
+    list-style-type: none;
+
+}
   
+li.Home a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(0, 0, 0); /* Set link color */
+    font-weight: 400; /* Make font bold */
+  }
+
+li.About a {
+    text-decoration: none; /* Remove underline */
+    color: #0075FF;
+    font-weight: 400; /* Make font bold */
+    font-size: .75rem;
+
+  }
 
 h1{
     font-weight: 400;
