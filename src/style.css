@@ -90,3 +90,35 @@ span{
     color: #0075FF;
     text-decoration: none; /* Remove o sublinhado do link */
 }
+
+
+
+
+
+
+
+/*lorem*/
+
+
+table{
+    width: 90%;
+    margin: auto;
+    background-color: beige;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black ;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: rgb(159, 159, 109);
+    border: 2px solid rgb(50, 50, 42);
+    padding: 1rem;
+}
+
+details summary{
+    text-align: center;
+    padding: 10px;
+
+}
